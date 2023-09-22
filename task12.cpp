@@ -2,14 +2,12 @@
 using namespace std;
 main()
 {
-cout<<"_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n";
-cout<<"\n";
-cout<<"\n";
-cout<<"              O        ^    ^               \n";
-cout<<"                        ____               \n";
-cout<<"               O       ( OO ) \\____________      \n";
-cout<<"                       ( __ ) \\            )\\/\\      \n";
-cout<<"                              ||- - - - w  |          \n";
-cout<<"                              ||          ||          \n";
-cout<<"                              ||          ||          \n";
+int sm,w,h;
+cout<< "Number of square meters you can paint: ";
+cin >>sm;
+cout<< "Width of the single wall (in meters): ";
+cin >>w;
+cout <<"Height of the single wall (in meters): ";
+cin >> h;
+cout << "Number of walls you can paint: " <<100/(w*h) ;
 }

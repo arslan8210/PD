@@ -2,20 +2,11 @@
 using namespace std;
 main()
 {
-cout<<"   .....                       ooooo     ooooo                 ...........\n";
-cout<<"   ......                     o     o   o     o                ..........\n";
-cout<<"   .......                       ooo    o     o                .........\n";
-cout<<"   ........                    oo       o     o                ........\n";
-cout<<"    ........                  ooooooo    ooooo  th             .......\n";
-cout<<"      .......               ........................           ......\n";
-cout<<"        .......               C  E  N  T  U  R  Y              .....\n";
-cout<<"          ......            ........................           ....\n";
-cout<<"            .....           ooooo ooooo o   o  ooooo           ...\n";
-cout<<"                --            o   o      o o     o             --\n";
-cout<<"                _||_          o   oooo    o      o             _||_\n";
-cout<<"               |    |         o   o      o o     o            |    |\n";
-cout<<"         ______|____|_____    o   ooooo o   o    o       _____|____|______\n";
-system("color 57");
+int age,n;
+cout <<"Enter the person's age: ";
+cin >> age;
+cout <<"Enter the number of yimes they've moved: ";
+cin >> n;
+n=n+1;
+cout << "Average number of years lived in the same house: " << age/n ;
 }
-
-

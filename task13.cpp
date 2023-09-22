@@ -2,21 +2,24 @@
 using namespace std;
 main()
 {
-cout<<" +--^---------- --------- ----- --------^-\n";
-cout<<"              ,         ,     ,          ,\n";
-cout<<" | |||||||||   '---------'     |          O\n";
-cout<<" '+----------------------------^----------|\n";
-cout<<"   ' ---------,---------,---------------'\n";
-cout<<"     / XXXXXX /'|        /' \n";
-cout<<"    / XXXXXX /  |       /' \n";
-cout<<"   / XXXXXX /'-------'        \n";
-cout<<"  / XXXXXX /        \n";
-cout<<" / XXXXXX /        \n";
-cout<<"(________(        \n";
-cout<<" '------'        \n";
-system("color9");
+int number,sum;
+cout <<"Enter an integar: ";
+cin >> number;
+sum=0;
+sum=sum+number;
+cout <<"Enter an integar: ";
+cin >> number;
+sum=sum+number;
+cout <<"Enter an integar: ";
+cin >> number;
+sum=sum+number;
+cout <<"Enter an integar: ";
+cin >> number;
+sum=sum+number;
+cout <<"Enter an integar: ";
+cin >> number;
+sum=sum+number;
+cout << "Sum=" << sum;
+
 }
-
-
-
 

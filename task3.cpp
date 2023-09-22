@@ -2,9 +2,12 @@
 using namespace std;
 main()
 {
-cout<< "     /\\\n";
-cout<< "   _/~~\\_\n";
-cout<< "  / |  | \\ \n";
-cout<< " ===.  .===\n";
-cout<< "    ||||\n";
-}
+float velocity,acceleration,time;
+cout << "Enter Initial Velocity (m/s): ";
+cin >> velocity;
+cout << "Enter Acceleration (m/s^2): ";
+cin >> acceleration;
+cout << "Enter Time (s): ";
+cin >> time;
+cout <<"Final Velocity (m/s): " <<(acceleration*time)+velocity;
+} 
